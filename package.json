@@ -1,0 +1,35 @@
+{
+  "name": "kotlin-parser-antlr",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "dependencies": {
+    "antlr4": "4.9.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhirzh/kotlin-parser-antlr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhirzh/kotlin-parser-antlr/issues"
+  },
+  "homepage": "https://github.com/zhirzh/kotlin-parser-antlr#readme",
+  "author": "Shirsh Zibbu <zibbu.shirsh@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "kotlin",
+    "parser",
+    "antlr4"
+  ]
+}
